@@ -1,7 +1,7 @@
-import { PrismicLink, PrismicText } from '@prismicio/react'
+import { PrismicLink, PrismicRichText } from "@prismicio/react";
 
 export function Navigation({ navigation }) {
-    console.log(navigation)
+  console.log(navigation);
   return (
     <nav>
       <ul>
@@ -10,7 +10,7 @@ export function Navigation({ navigation }) {
           return (
             <li key={slice.id}>
               <PrismicLink field={slice.primary.link}>
-               {slice.primary.name}
+                <PrismicRichText field={slice.primary.name} />
               </PrismicLink>
 
               {/* Renders child links, if present. */}
@@ -23,14 +23,14 @@ export function Navigation({ navigation }) {
                           <PrismicText field={item.child_name} />
                         </PrismicLink>
                       </li>
-                    )
+                    );
                   })}
                 </ul>
               )}
             </li>
-          )
+          );
         })}
       </ul>
     </nav>
-  )
+  );
 }
