@@ -1,0 +1,28 @@
+{
+  "menu_items": {
+    "__TYPE__": "GroupContentType",
+    "value": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "failed",
+              "type": "Text"
+            }
+          ],
+          [
+            "link",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "hair",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

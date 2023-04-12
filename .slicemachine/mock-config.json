@@ -1,0 +1,18 @@
+{
+  "_cts": {
+    "page": {},
+    "menu": {
+      "menu_items": {}
+    },
+    "navigation": {}
+  },
+  "slices": {
+    "CoverImage": {},
+    "NavigationItem": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    }
+  }
+}
