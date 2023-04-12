@@ -20,7 +20,7 @@ export function Navigation({ navigation }) {
                     return (
                       <li key={JSON.stringify(item)}>
                         <PrismicLink field={item.child_link}>
-                          <PrismicText field={item.child_name} />
+                          <PrismicRichText field={item.child_name} />
                         </PrismicLink>
                       </li>
                     );
